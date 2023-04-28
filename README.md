@@ -70,4 +70,4 @@ The project directory contains a Jupyter notebook called `sugarscape.ipynb`. Thi
 
 The model demonstrates the population falling and plateuing as agents die with no ability to reproduce. Since agents don't age, there is an eventual platue in the drop as the enviorment hits "carrying capacity". This lines up with the original sugarscape model with no replacement. 
 
-![results](/pics/graph.PNG)
+![results](/pics/graph.png)

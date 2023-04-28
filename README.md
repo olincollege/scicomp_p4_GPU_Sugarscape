@@ -69,4 +69,5 @@ The project directory contains a Jupyter notebook called `sugarscape.ipynb`. Thi
 ## Results
 
 The model is not currently functional. The reasons are not fully obvious but it seems to be something to do with the Agent death and movement functions, in a real sugarscape model the population overtime should fluctuate, currently, as seen below, population remains constant.
+
 ![results](/pics/graph.PNG)

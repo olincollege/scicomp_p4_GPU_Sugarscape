@@ -1,6 +1,6 @@
 ## Project 4: Sugarscape Model with GPU Acceleration
 
-This project is an attempt at an implementation of the Sugarscape model in Python with GPU acceleration using pyflameGPU2. The Sugarscape model is a simple model of an ecosystem of agents that interact with each other and with their environment to demonstrate the emeragance of economic inequality. The model is used to study a variety of phenomena, such as foraging, cooperation, and competition. The current version of the model does not work properly as the population seems to stay the same throught the trial. The model currently only implements metabolism differences between the agents. This model was heavily inspired and partially adapted from [Submodel Test](https://github.com/FLAMEGPU/FLAMEGPU2-submodel-benchmark/blob/master/src/main.cu#L40) from the official flame gpu documentation. 
+This project is an attempt at an implementation of the Sugarscape model in Python with GPU acceleration using pyflameGPU2. The Sugarscape model is a simple model of an ecosystem of agents that interact with each other and with their environment to demonstrate the emeragance of economic inequality. The model is used to study a variety of phenomena, such as foraging, cooperation, and competition. The model currently only implements metabolism differences between the agents. This model was heavily inspired and  adapted from [Submodel Test](https://github.com/FLAMEGPU/FLAMEGPU2-submodel-benchmark/blob/master/src/main.cu#L40) from the official flame gpu documentation. 
 
 ## Getting Started
 
@@ -68,6 +68,6 @@ The project directory contains a Jupyter notebook called `sugarscape.ipynb`. Thi
 
 ## Results
 
-The model is not currently functional. The reasons are not fully obvious but it seems to be something to do with the Agent death and movement functions, in a real sugarscape model the population overtime should fluctuate, currently, as seen below, population remains constant.
+The model demonstrates the population falling and plateuing as agents die with no ability to reproduce. Since agents don't age, there is an eventual platue in the drop as the enviorment hits "carrying capacity". This lines up with the original sugarscape model with no replacement. 
 
 ![results](/pics/graph.PNG)

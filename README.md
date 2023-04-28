@@ -64,7 +64,7 @@ Once you have installed the required libraries, you can clone the github reposit
 git clone https://github.com/olincollege/scicomp_p4_GPU_Sugarscape
 ```
 
-The project directory contains a Jupyter notebook called `sugarscape.ipynb`. This notebook contains the code for the Sugarscape model. To run the code, open the notebook in Jupyter and select "Run" from the menu bar.
+The project directory contains a Jupyter notebook called `sugarscape.ipynb`. This notebook contains the code for the Sugarscape model. To run the code, open the notebook in Jupyter and select "Run" from the menu bar. The notebook contains a block of code that must be uncommented to download and install the library.
 
 ## Results
 
